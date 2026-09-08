@@ -1,18 +1,27 @@
 # Guildlings
 
-살아 있는 Claude Code 세션이 바탕화면 아래를 걸어다닙니다. 세션마다 캐릭터 한 마리,
-동료(subagent)는 그 뒤를 줄지어 따라옵니다. 무엇을 하고 있는지는 머리 위 말풍선이,
-자세한 것은 캐릭터를 누르면 뜨는 판이 말합니다.
+Your live Claude Code sessions walk along the bottom of your desktop. One character
+per session; the subagents it spawned trail behind it in a line. A speech bubble
+overhead says what it is working on — click a character for the full picture.
 
-Windows 용. 다른 서버의 세션도 ssh 로 데려올 수 있습니다.
+A session stuck waiting for your approval blinks red with an exclamation mark.
+That is half the reason this app exists: an approval prompt leaves no trace in the
+transcript until you answer it, so from the outside "thinking hard" and "blocked on
+you" look exactly alike. Guildlings tells them apart.
 
-## 받기
+It only watches. Guildlings never sends anything into your sessions.
 
-[Releases](../../releases) 에서 설치 파일을 받아 실행하세요.
-이미 깔려 있으면 앱의 **설정 → 업데이트**에서 받습니다.
+Windows. Sessions running on other machines can be brought in over ssh.
 
-서명 인증서가 없어 SmartScreen 경고가 뜹니다 — "추가 정보 → 실행".
+## Get it
 
-## 소스
+Download the installer from [Releases](../../releases) and run it.
+Already installed? Update from **Settings → Updates** inside the app.
 
-소스는 비공개입니다. 이 리포는 받는 곳과 이야기하는 곳(Issues)입니다.
+There is no code-signing certificate yet, so SmartScreen will warn you —
+choose **More info → Run anyway**.
+
+## Source
+
+The source is private. This repo is where you download the app, and where we
+talk — [open an issue](../../issues).
